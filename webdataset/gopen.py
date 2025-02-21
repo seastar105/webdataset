@@ -38,7 +38,7 @@ class Pipe:
         *args,
         mode=None,
         timeout=7200.0,
-        ignore_errors=False,
+        ignore_errors=True,
         ignore_status=[],
         **kw,
     ):
